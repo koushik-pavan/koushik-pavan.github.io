@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            /* Changed from 650px to 95% to consume the monitor space */
+            max-width: 95%; 
+            margin: 50px auto;
+            padding: 0 20px;
+            line-height: 1.5;
+            color: #000;
+            position: relative; /* Allows absolute positioning relative to the body container */
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #000;
+            margin: 40px 0;
+        }
+        .update-item {
+            margin-bottom: 25px;
+        }
+        .date {
+            font-weight: bold;
+        }
+        .update-item p {
+            margin: 0; /* Removes the default space below the date */
+        }
+        /* Top Right Contact Link Style */
+        .top-contact-link {
+            position: absolute;
+            top: 0;
+            right: 20px; /* Aligns with the body padding */
+            font-size: 1.2em;
+        }
+        .top-contact-link a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .top-contact-link a:hover {
+            text-decoration: underline;
+        }
+        /* Style for the contact list to keep it clean */
+        .contact-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-list li {
+            margin-bottom: 8px;
+        }
+        .contact-list a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Right Contact Link -->
+    <div class="top-contact-link">
+        <a href="contact/index.html">Contact</a>
+    </div>
+
+    <!-- Intro Section -->
+    <section>
+        <h1>Introduction</h1>
+        <p>
+            I am <strong>Pavan Koushik</strong>. I am a Masters student in the Computational and Data Sciences Department at Indian Institute of Science under the supervision of Prof.Venkatesh Babu at the <strong>Vision and AI Lab</strong>. I did my bachelors in <strong>Electronics and Communication</strong> from BITS Pilani and had the privilege to work with some amazing professors and students.</p>
+        <p>
+            I am currently exploring on how to build <strong>physically consistent Dynamic 3d scenes</strong>. These can be useful for synthesizing training data for a variety of tasks in the field of robotics (and hopefully world models).
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Updates Section -->
+    <section>
+        <h2>Updates</h2>
+
+        <div class="update-item">
+            <div class="date">December, 2025</div>
+            <p>Awarded Reliance Foundation Scholarship!(Awarded to only <strong>100</strong> students across India). Thanks Reliance!</p>
+        </div>
+
+        <div class="update-item">
+            <div class="date">August, 2025</div>
+            <p>Joined IISc!</p>
+        </div>
+    </section>
+
+
+</body>
+</html>
